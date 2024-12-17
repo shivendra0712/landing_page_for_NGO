@@ -8,4 +8,93 @@ html,
 body {
     width: 100%;
     height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1489851221632-0976a724c9fd?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 80px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 3vw;
+     background-color: rgb(0, 0, 0,0.4);
+}
+nav:hover{ 
+    box-shadow: 3px 3px 5px black;
+}
+.links{
+    display: flex;
+    gap: 3vw;
+}
+nav h1{
+     font-size: 2vw;
+     color: white;
+}
+nav h1:hover{
+   text-shadow: 2px 2px 5px black;
+}
+.links a{
+   text-decoration: none;
+   color:white ;
+   font-size: 1.2vw;
+}
+.links a:hover{
+    text-shadow: 2px 2px 5px black;
+    color:#F7701A;
+ }
+.menu{
+    display: flex;
+    gap: 2vw;  
+}
+.menu button{
+    padding: 1vh 2vw; 
+    font-size: 1.1vw;
+    font-weight: 500;
+    background-color: #F7701A;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.menu button:hover{
+   color: black;
+   background-color: white;
+   border: 1px solid black;
+}
+.menu  i{
+   display: none;
+}
+.hero_section{
+     width: 30%;
+     padding: 0 3vw;
+     /* background-color: blue; */
+     margin-top: 4vw;
+}
+.hero_section > h1{
+   font-size: 5vw;
+   line-height: 5.2vw;
+   
+}
+.hero_section > button{
+  margin-top: 3vw;
+    padding: 1.5vh 2vw; 
+    font-size: 1.5vw;
+    font-weight: 500;
+    background-color: #F7701A;
+    color: white;
+    border-radius: 25px;
+    border: none;
+ }
+
+ .hero_section > button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+ }
